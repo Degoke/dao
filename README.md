@@ -1,0 +1,2 @@
+FakeNFTMarkeyplace deployed to 0xF57AeD41FA24a3f50981aD1E7CCE79D03bba0Df2
+cryptoDevsDao deployed to 0x785A9b1183348Ea40Ad05148f21EB56b2620a0B3
