@@ -33,16 +33,6 @@ export default function Home() {
   // Helper function to connect wallet
   const connectWallet = async () => {
     try {
-      await getProviderOrSigner();
-      setWalletConnected(true);
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  // Reads the ETH balance of the DAO contract and sets the `treasuryBalance` state variable
-  const getDAOTreasuryBalance = async () => {
-    try {
       const provider = await getProviderOrSigner();
       const balance = await provider.getBalance(
         CRYPTODEVS_DAO_CONTRACT_ADDRESS
